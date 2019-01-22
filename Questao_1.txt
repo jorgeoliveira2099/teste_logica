@@ -1,0 +1,25 @@
+Questão 1
+
+a)2,5 - real
+
+b)12,5 - real
+
+c)4,5 - real
+
+d)1,5 - real
+
+e) 5 - inteiro
+
+f) 3 - inteiro
+
+g) 7- inteiro
+
+h) 3- inteiro
+
+i) 10- inteiro
+
+j) 25 - inteiro
+
+k) 4,47 - real
+
+l) 4,05 - real

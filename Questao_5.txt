@@ -1,0 +1,37 @@
+
+
+package javaapplication1;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author josue
+ */
+public class questao5 {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String nome;
+
+        String sobrenome;
+
+        String nome_completo;
+        
+       System.out.println("Digite seu nome: ");      
+       nome = scan.next();
+
+        System.out.println("Digite seu sobrenome: ");      
+        sobrenome = scan.next();
+               
+     nome_completo = nome + " " + sobrenome;
+      
+      
+      System.out.print("olá:  " + nome_completo);
+   
+      
+    }
+    }
+
+       
+      

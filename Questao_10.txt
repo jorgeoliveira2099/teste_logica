@@ -1,0 +1,74 @@
+
+package javaapplication1;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author josue
+ */
+public class questao10 {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        
+        int n = 3; 
+int v[] = new int[n];
+int i; 
+
+
+System.out.println("Digite os valores do vetor");
+
+for (i=0; i<n; i++) {
+  
+    v[i] = scan.nextInt(); 
+}
+      
+//ordem de gititação
+ System.out.println("ordem de digitação");
+for (i=0; i<n; i++) {
+ System.out.println(v[i]);
+}
+//fim ordem de digitação
+
+
+ System.out.println();
+ 
+ 
+  System.out.println("ordem crescente");
+ 
+  if(v[0] < v[1]){
+      if(v[0] < v[2]){
+          System.out.println(v[0] +" "+ v[1] +" "+ v[2] );
+      }
+  }
+  
+  if(v[1] < v[0]){
+      if(v[1] < v[2]){
+          System.out.println(v[1] +" "+ v[2] +" "+ v[0] );
+      }
+  }
+  
+   if(v[2] < v[1]){
+      if(v[2] < v[0]){
+          System.out.println(v[2] +" "+ v[1] +" "+ v[0] );
+      }
+  }
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+
+    }
+    }
+
+       
+      
+    

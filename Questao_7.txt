@@ -1,0 +1,43 @@
+
+package javaapplication1;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author josue
+ */
+public class questao7 {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+      
+          double HT, VH, PD, SB, SL, TD; 
+        System.out.println("Digite a quantidade de horas trabalhadas no mês: ");      
+       HT = scan.nextDouble();
+
+         System.out.println("Digite o valor que você recebe por hora: ");      
+       VH = scan.nextDouble();
+
+         System.out.println("Digite o porcentual de desconto: ");      
+       PD = scan.nextDouble();
+       
+       //salario bruto
+       SB = HT * VH; 
+       //total de desconto
+       TD = (PD/100)*SB;
+       //salario liquido
+         SL = (SB - TD); 
+       
+        
+      System.out.println("a Quantidade de horas Trabalhadas foi:  " + HT );
+      System.out.println("Seu Salário Bruto é de:  " + SB + " Reais" );
+      System.out.println("O seu total de Desconto é de:  " + TD);
+      System.out.println("O seu salário Líquido é de:  " + SL + " Reais" );
+      
+           
+      
+    }
+    }
+
+       

@@ -1,0 +1,28 @@
+
+package javaapplication1;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author josue
+ */
+public class questao8 {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+       int C,F;
+           
+        System.out.println("Digite a temperatura em Celsius para ser convertida para Fahrenheit: ");      
+       C = scan.nextInt();
+
+        F = (9 * C + 160) / 5; 
+      System.out.println("A temperatura:  " + C + "em Fahrenheit é: " + F);
+   
+      
+    }
+    }
+
+       
+
+
